@@ -1,0 +1,28 @@
+# Composer
+/vendor/
+
+# Závislosti prostředí
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Logy a cache
+/var/
+/storage/logs/
+*.log
+
+# Nette specifické
+/temp/
+
+# Laravel specifické
+/bootstrap/cache/
+/public/storage
